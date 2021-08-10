@@ -1,4 +1,4 @@
-# Persents real on deposit
+# Application for determining interest income on investments
 
 def percents(x, y):
      """What percentage of x is y"""
@@ -30,5 +30,6 @@ def print_percents(x,y):
      """Print What percentage of x is y"""
      print("deposit = " +  str(x) + " in this moment " + str(y) + " result in procents " + ""),(str(difine_color(percents(x, y))))
 
-# Set the current values and see the result
+
+# Set the current values and see the result in the required color
 print_percents(79.11,119.54)
